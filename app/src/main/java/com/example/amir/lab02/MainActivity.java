@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
 
         // check for url extension
         System.out.println( "**************************" + url + "********************************");
-        if ( url.substring( url.length() - 3, url.length()).equals( "txtt")) {
+        if ( url.substring( url.length() - 3, url.length()).equals( "txt")) {
             return new MySimpleURLReader( url);
         } else if ( url.substring( url.length() - 3, url.length()).equals( "htm")
                 || url.substring( url.length() - 4, url.length()).equals( "html")) {
