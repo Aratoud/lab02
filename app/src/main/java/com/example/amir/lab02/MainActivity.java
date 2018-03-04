@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         // init variables
         listOfPoemLinks = new ArrayList<>();
 
-        // coppy the link into clipboard
+        // do something else here
         ClipboardManager clipboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
         ClipData clip = ClipData.newPlainText("Link", "http://www.cs.bilkent.edu.tr/~david/housman.txt");
         clipboard.setPrimaryClip(clip);
